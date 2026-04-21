@@ -150,15 +150,37 @@ Area  |  Quality  |  Year  |  Neighborhood  |  Predicted Price
 
 ---
 
-## 🖼️ Output Screenshots to Include
+## 🖼️ Project Output Screenshots
 
-When uploading to GitHub, include these screenshots in your README or a `/screenshots` folder:
+### 📊 Exploratory Data Analysis
+<p align="center">
+  <img src="outputs/eda_plots.png" width="85%">
+</p>
 
-1. **`eda_plots.png`** — 6-panel EDA dashboard (price distribution, scatter plots, heatmap)
-2. **`model_evaluation.png`** — Actual vs Predicted plot + Residuals plot
-3. **`feature_importance.png`** — Which features matter most (Random Forest)
-4. **Terminal output** — Model metrics table comparing both models
+- Distribution of house prices  
+- Feature relationships  
+- Correlation heatmap  
+- Neighborhood price comparison  
 
+---
+
+### 🌳 Feature Importance (Random Forest)
+<p align="center">
+  <img src="outputs/feature_importance.png" width="60%">
+</p>
+
+- Shows which features impact price the most  
+- `OverallQual` is the most important feature  
+
+---
+
+### 📈 Model Evaluation
+<p align="center">
+  <img src="outputs/model_evaluation.png" width="85%">
+</p>
+
+- Actual vs Predicted comparison  
+- Residual analysis (error distribution)  
 ---
 
 ## 💡 Key Learnings
